@@ -1,0 +1,261 @@
+* {
+    list-style-type: none !important;
+    text-decoration: none !important;
+    /* text-align: justify; */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.eot');
+    src: local('fonts/Poppins Regular'), local('Poppins-Regular'),
+        url('fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Regular.woff2') format('woff2'),
+        url('fonts/Poppins-Regular.woff') format('woff'),
+        url('fonts/Poppins-Regular.ttf') format('truetype'),
+        url('fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-SemiBold.eot');
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+        url('fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('fonts/Poppins-SemiBold.woff') format('woff'),
+        url('fonts/Poppins-SemiBold.ttf') format('truetype'),
+        url('fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: '';
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+:hover {
+    text-decoration: none;
+
+}
+
+textarea:focus,
+input[type='email']:focus,
+input[type='text']:focus {
+    outline: none !important;
+}
+
+.contact-form textarea,
+.contact-form input {
+    background: #f2f2f2 !important;
+    border: none !important;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.newsletter input {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.login-form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.text-yellow {
+    color: #FEC107;
+}
+
+.bg-yellow {
+    background-color: #FEC107;
+}
+
+.poppins-regular {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.f-1_3 {
+    font-size: 1.3rem;
+}
+
+.f-2_5 {
+    font-size: 2.5rem;
+}
+
+.f-3_7 {
+    font-size: 3.7rem;
+}
+
+@media screen and (max-width:768px) {
+    .f-1_3 {
+        font-size: 1.3rem;
+    }
+
+    .f-2_5 {
+        font-size: 2rem;
+    }
+
+    .f-3_7 {
+        font-size: 2.2rem;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+
+.rounded-25 {
+    border-radius: 25px;
+}
+
+.text-businesscom-maroon {
+    color: #a82d1c !important;
+}
+
+.bg-businesscom-maroon {
+    background-color: #a82d1c !important;
+}
+
+.text-businesscom-grey {
+    color: #58585b !important;
+}
+
+.bg-businesscom-grey {
+    background-color: #58585b !important;
+}
+
+.bg-businesscom-grey-light {
+    background-color: #f2f2f2 !important;
+}
+
+.sidebar-logo {
+    height: 100px;
+}
+
+.sidebar-menu .card-header {
+    background-color: #58585b;
+    border: none;
+    border-bottom: none;
+    color: #fff;
+    border-radius: 0;
+}
+
+.sidebar-menu .card {
+    border: none;
+    border-radius: 0;
+}
+
+.sidebar-icon {
+    border: 2px red solid;
+    width: 20px !important;
+    height: 0px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.sidebar-menu .user {
+    bottom: 0;
+}
+
+.user-img {
+    height: 70px;
+    width: 70px;
+    background: #fff;
+}
+
+.user-details {
+    width: calc(100% - 87px);
+}
+
+.company-brand {
+    position: absolute;
+    bottom: 16px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+
+.company-brand div {
+    height: 70px;
+    width: 200px;
+    border: 2px red solid
+}
+
+.main-view {
+    height: calc(100% - 100px);
+    background: #fff;
+}
+
+.signature-gallery{
+    height: 650px;
+    overflow-y: auto;
+}
+
+.signature-gallery .individual{
+    /* border: 2px red solid; */
+    height: 350px;
+    width: 100%;
+}
+
+.signature-gallery .signature-content-item{
+    height: 93%;
+}
+
+.signature-content-item .title{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature-detail{
+    height: auto;
+}
+
+.preview-signature,
+.edit-signature{
+    height: 300px;
+}
+
+
+
+.sidebar-menu .card-body{
+    background-color: #58585b;
+    padding: 0 auto !important;
+}
